@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DessertsByJazzyD | Treat Menu</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">
+      <span class="logo-main">DessertsByJazzyD</span>
+      <span class="logo-tagline">Handcrafted Chocolate-Covered Treats</span>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="menu.html" class="active">Treats</a>
+      <a href="order.html">Order &amp; Contact</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="intro">
+      <h1>Our Signature Treats</h1>
+      <p>
+        Mix and match your favorite chocolate-covered treats. Design your own
+        box or choose one of our curated combos.
+      </p>
+    </section>
+
+    <section class="gallery">
+      <article class="gallery-item">
+        <div class="gallery-image fake-image strawberries"></div>
+        <div class="gallery-info">
+          <h2>Classic Strawberries</h2>
+          <p>Fresh berries dipped in milk or white chocolate with drizzle.</p>
+          <span class="price">Starting at $24 / dozen</span>
+        </div>
+      </article>
+
+      <article class="gallery-item">
+        <div class="gallery-image fake-image pretzels"></div>
+        <div class="gallery-info">
+          <h2>Chocolate Pretzel Rods</h2>
+          <p>Sweet &amp; salty pretzels decorated with colorful sprinkles.</p>
+          <span class="price">Starting at $15 / dozen</span>
+        </div>
+      </article>
+
+      <article class="gallery-item">
+        <div class="gallery-image fake-image oreos"></div>
+        <div class="gallery-info">
+          <h2>Chocolate-Covered Oreos</h2>
+          <p>Cookie bites with themed drizzle for birthdays &amp; holidays.</p>
+          <span class="price">Starting at $18 / dozen</span>
+        </div>
+      </article>
+
+      <article class="gallery-item">
+        <div class="gallery-image fake-image mixbox"></div>
+        <div class="gallery-info">
+          <h2>JazzyD Mix Box</h2>
+          <p>A little bit of everything for when you can’t decide.</p>
+          <span class="price">Starting at $32 / box</span>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      Ready to order?
+      <a href="order.html">Visit our Order &amp; Contact page</a>.
+    </p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DessertsByJazzyD | Chocolate-Covered Treats</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">
+      <span class="logo-main">DessertsByJazzyD</span>
+      <span class="logo-tagline">Handcrafted Chocolate-Covered Treats</span>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="menu.html">Treats</a>
+      <a href="order.html">Order &amp; Contact</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Sweet moments, dipped in chocolate.</h1>
+        <p>
+          Welcome to <strong>DessertsByJazzyD</strong> – your go-to spot for
+          chocolate-covered strawberries, pretzels, Oreos, and more. Perfect for
+          birthdays, graduations, game days, and “just because”.
+        </p>
+
+        <!-- JavaScript feature: button reveals "Today's Special" -->
+        <button id="show-special" class="button-primary">Show Today’s Special</button>
+        <p id="special-text" class="special-text">
+          Today’s Special: <strong>Strawberry Dream Box</strong> – 12
+          chocolate-covered strawberries with pink drizzle &amp; gold sprinkles.
+        </p>
+      </div>
+
+      <div class="hero-media">
+        <!-- Bonus feature: YouTube video embed -->
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="DessertsByJazzyD Chocolate Treats"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlight">
+      <h2>Why You’ll Love Our Treats</h2>
+      <div class="columns">
+        <div class="card">
+          <h3>Custom Designs</h3>
+          <p>Match your event colors with drizzle, sprinkles, and toppings.</p>
+        </div>
+        <div class="card">
+          <h3>Fresh &amp; Handcrafted</h3>
+          <p>Every order is made fresh with quality chocolate and ingredients.</p>
+        </div>
+        <div class="card">
+          <h3>Perfect for Any Occasion</h3>
+          <p>From study sessions to celebrations, we’ve got the treats covered.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      Questions or custom orders!
+      <a href="mailto:dessertsbyjazzyd@gmail.com">
+        dessertsbyjazzyd@gmail.com
+      </a>
+    </p>
+    <p>
+      Follow us on
+      <a href="https://www.instagram.com/dessertsbyjazzyd/" target="_blank" rel="noopener">
+        Instagram
+      </a>
+      for new designs and specials.
+    </p>
+    <p class="copyright">&copy; 2025 DessertsByJazzyD. All rights reserved.</p>
+  </footer>
+</body>
+</html>

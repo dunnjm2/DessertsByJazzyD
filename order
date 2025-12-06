@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DessertsByJazzyD | Order & Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">
+      <span class="logo-main">DessertsByJazzyD</span>
+      <span class="logo-tagline">Handcrafted Chocolate-Covered Treats</span>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Treats</a>
+      <a href="order.html" class="active">Order &amp; Contact</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="intro">
+      <h1>Order &amp; Contact</h1>
+      <p>
+        Use the form below to request a quote, ask a question, or plan a custom
+        dessert table. We’ll get back to you within 24–48 hours.
+      </p>
+    </section>
+
+    <!-- Required form with at least 3 elements -->
+    <section class="form-section">
+      <form id="order-form" action="#" method="post">
+        <div class="form-row">
+          <label for="name">Name*</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email*</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-row">
+          <label for="event-date">Event Date</label>
+          <input type="date" id="event-date" name="event-date">
+        </div>
+
+        <div class="form-row">
+          <label for="treat-type">Preferred Treat*</label>
+          <select id="treat-type" name="treat-type" required>
+            <option value="">Select one</option>
+            <option value="strawberries">Chocolate-Covered Strawberries</option>
+            <option value="pretzels">Pretzel Rods</option>
+            <option value="oreos">Chocolate-Covered Oreos</option>
+            <option value="mix">JazzyD Mix Box</option>
+          </select>
+        </div>
+
+        <div class="form-row checkbox-row">
+          <span>Chocolate Type</span>
+          <label><input type="checkbox" name="chocolate[]" value="milk"> Milk</label>
+          <label><input type="checkbox" name="chocolate[]" value="white"> White</label>
+          <label><input type="checkbox" name="chocolate[]" value="dark"> Dark</label>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Order Details / Theme</label>
+          <textarea id="message" name="message" rows="4"
+            placeholder="Colors, theme, quantity, allergies, etc."></textarea>
+        </div>
+
+        <div class="form-row">
+          <button type="submit" class="button-primary">
+            Submit Request
+          </button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      Prefer email?
+      <a href="mailto:dessertsbyjazzyd@gmail.com">
+        dessertsbyjazzyd@gmail.com
+      </a>
+    </p>
+  </footer>
+</body>
+</html>
